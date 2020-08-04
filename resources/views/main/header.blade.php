@@ -53,10 +53,10 @@
 	        <ul class="navbar-nav ml-auto">
 	        	<li class="nav-item"><a href="{{url('/')}}" class="nav-link">Home</a></li>
 	        	<li class="nav-item"><a href="{{url('about')}}" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="project.html" class="nav-link">Galeri</a></li>
-	        	<li class="nav-item"><a href="services.html" class="nav-link">Genteng</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-	        	<li class="nav-item"><a href="blog.html" class="nav-link">Login</a></li>
+	        	<li class="nav-item"><a href="{{url('galeri')}}" class="nav-link">Galeri</a></li>
+	        	<li class="nav-item"><a href="{{url('genteng')}}" class="nav-link">Genteng</a></li>
+	          <li class="nav-item"><a href="{{url('contact')}}" class="nav-link">Contact</a></li>
+	        	<li class="nav-item"><a href="{{url('signin')}}" class="nav-link">Login</a></li>
 	        </ul>
 	      </div>
 	    </div>

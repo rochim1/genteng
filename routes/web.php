@@ -22,15 +22,15 @@ Route::get('/home', function () {
 Route::get('/about', function () {
     return view('pages.about');
 });
-Route::get('/service', function () {
-    return view('pages.about');
+Route::get('/galeri', function () {
+    return view('pages.galeri');
 });
-Route::get('/testimoni', function () {
-    return view('pages.about');
-});
-Route::get('/article', function () {
-    return view('pages.about');
+Route::get('/genteng', function () {
+    return view('pages.genteng');
 });
 Route::get('/contact', function () {
-    return view('pages.about');
+    return view('pages.contact');
+});
+Route::get('/signin', function () {
+    return view('login.index');
 });

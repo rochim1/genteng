@@ -52,7 +52,7 @@ a {
     display: none; }
 
 .form-inner {
-  background: #ff97a4;
+  background: #d9534f;
   padding-top: 16.36vh;
   padding-left: 4vw;
   padding-right: 4vw; }
@@ -67,7 +67,9 @@ form {
 h3 {
   text-transform: uppercase;
   font-size: 40px;
-  font-family: "ChelseaMarket-Regular"; }
+  font-family: 'Roboto',
+  sans-serif;
+  }
 
 label {
   margin-bottom: 11px;
@@ -110,7 +112,7 @@ button {
   justify-content: center;
   padding: 0;
   background: #fff;
-  color: #ff97a4;
+  color: #d9534f;
   text-transform: uppercase;
   font-size: 17px;
   overflow: hidden;
@@ -165,7 +167,7 @@ button {
   .socials-icon:hover {
     background: #fff;
     border: 1px solid transparent;
-    color: #ff97a4; }
+    color: #d9534f; }
   .socials-icon:last-child {
     margin-right: 0; }
 

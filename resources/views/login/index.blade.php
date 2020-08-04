@@ -2,14 +2,14 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>RegistrationForm_v8 by Colorlib</title>
+		<title>Login-Genteng Sokka</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> 
 		<!-- MATERIAL DESIGN ICONIC FONT -->
-		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+		<link rel="stylesheet" href="{{asset('login/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css')}}">
 		
 		<!-- STYLE CSS -->
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="{{asset('login/css/style.css')}}">
 	</head>
 
 	<body>
@@ -36,9 +36,9 @@
 						<label for="">Password:</label>
 						<input type="password" class="form-control" data-validation="length" data-validation-length="min8">
 					</div>
-					<button>create my account</button>
+					<button>Buat Akun</button>
 					<div class="socials">
-						<p>Sign up with social platforms</p>
+						<p>Atau Login dengan</p>
 						<a href="" class="socials-icon">
 							<i class="zmdi zmdi-facebook"></i>
 						</a>
